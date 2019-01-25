@@ -1,0 +1,8 @@
+{
+  "name":  "control-ea",
+  "alias": "control-ea.sh",
+  "type": "docker",
+  "features": {
+    "cloud": "v1"
+  }
+}
