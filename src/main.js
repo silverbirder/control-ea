@@ -2,11 +2,10 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import "./registerServiceWorker";
-import 'vue2-event-calendar/default.css'
-import Calendar from 'vue2-event-calendar'
+import axios from 'axios'
 
-Vue.component('Calendar', Calendar)
 Vue.config.productionTip = false;
+Vue.prototype.axios = axios
 
 new Vue({
   router,
