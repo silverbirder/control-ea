@@ -1,34 +1,11 @@
 # control-ea
 
-## Project setup
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+$ npm i -g --unsafe-perm now
+# login to now
+$ now
+$ now secret add api_url <API_URL>
+$ now -e VUE_APP_API_URL=@api_url
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+※ API used [here](https://github.com/Silver-birder/control-ea-api)
