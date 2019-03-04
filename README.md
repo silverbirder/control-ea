@@ -1,5 +1,8 @@
 # control-ea
 
+# OUTPUT
+![output](https://res.cloudinary.com/silverbirder/image/upload/v1551705139/control-ea/control-ea.gif)
+
 ```
 $ npm i -g --unsafe-perm now
 # login to now
